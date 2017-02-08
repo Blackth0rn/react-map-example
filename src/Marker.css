@@ -1,0 +1,20 @@
+.marker {
+  width: 0;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marker span {
+  border: 2px solid grey;
+  border-radius: 3px;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+.marker.selected span {
+  border: 2px solid red;
+}

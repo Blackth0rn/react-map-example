@@ -1,0 +1,14 @@
+.App {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+}
+
+.Map {
+  width: 80vw;
+}
+
+.Nav {
+  width: 20vw;
+}
+
