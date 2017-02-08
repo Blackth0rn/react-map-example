@@ -8,7 +8,7 @@ export default class Map extends Component {
     const selectedLocation = this.props.locations.find((location) => location.id === this.props.selected);
     return (
       <GoogleMapReact
-        apikey="AIzaSyC5XzG6b2EksFJTlNqlPec946_zrF5zfaI"
+        apiKey="AIzaSyC5XzG6b2EksFJTlNqlPec946_zrF5zfaI"
         center={selectedLocation ? [selectedLocation.lat, selectedLocation.lng] : this.props.center}
         zoom={this.props.zoom}
       >
